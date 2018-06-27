@@ -2183,6 +2183,11 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		ul.actions li a:hover {
+			background-color: blue;
+			color: #fff;
+		}
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -3374,6 +3379,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 50%;
+			color: #000;
 		}
 
 		#banner .image {
