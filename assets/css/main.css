@@ -3367,6 +3367,12 @@ input, select, textarea {
 
 		#banner h1 {
 			margin-top: -0.125em;
+			transition: 0.5s;
+
+		}
+
+		#banner h1:hover {
+			transform: scale(1.2);
 		}
 
 		#banner .content {
